@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: web-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+    instance:
+      leaseRenewalIntervalInSeconds: 5  # DON NOT DO THIS IN PRODUCTION
+
+server:
+  port: 3333

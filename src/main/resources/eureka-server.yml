@@ -1,0 +1,10 @@
+# Configure the Eureka discovery server
+eureka:
+  instance:
+    hostname: localhost
+  client: # the server is not a client so don't register yourself
+    registerWithEureka: false
+    fetchRegistry: false
+
+server:
+  port: 1111
