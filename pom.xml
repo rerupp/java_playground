@@ -38,7 +38,7 @@
     <!-- example. -->
     <!--<start-class>determination.cloud.versions.RestVersionsExample</start-class>-->
     <start-class>env.ShowSystemProperties</start-class>
-    <jackson.version>2.10.4</jackson.version>
+    <jackson.version>2.12.1</jackson.version>
   </properties>
 
   <dependencies>
