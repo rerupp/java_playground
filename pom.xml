@@ -38,7 +38,7 @@
     <!-- example. -->
     <!--<start-class>determination.cloud.versions.RestVersionsExample</start-class>-->
     <start-class>env.ShowSystemProperties</start-class>
-    <jackson.version>2.10.4</jackson.version>
+    <jackson.version>2.12.1</jackson.version>
   </properties>
 
   <dependencies>
@@ -107,12 +107,12 @@
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-core</artifactId>
-      <version>1.1.2</version>
+      <version>1.2.0</version>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <version>1.1.2</version>
+      <version>1.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.hsqldb</groupId>
@@ -171,7 +171,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
